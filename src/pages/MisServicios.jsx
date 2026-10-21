@@ -1,15 +1,12 @@
 import { Link } from 'react-router-dom';
 
 export function MisServicios() {
-    // Funciones temporales para evitar errores de compilación al hacer clic
     const vaciarCarrito = () => {
         console.log("Carrito vaciado");
-        // Aquí irá la lógica de tu carrito más adelante
     };
 
     const confirmarCarrito = () => {
         console.log("Agendamiento confirmado");
-        // Aquí irá la lógica de confirmación más adelante
     };
 
     return (
@@ -59,7 +56,7 @@ export function MisServicios() {
                                 <Link className="nav-link" to="/registro">Registrar usuario</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/mis-servicios">
+                                <Link className="nav-link" to="/misServicios">
                                     Mis productos (<span id="contador-carrito">0</span>)
                                 </Link>
                             </li>
@@ -84,7 +81,6 @@ export function MisServicios() {
                         Total: $<span id="total-carrito">0</span>
                     </h3>
                     <div>
-                        {/* CORREGIDO: onClick en lugar de onclick, llamando a la función */}
                         <button
                             type="button"
                             className="btn btn-outline-danger me-2"
