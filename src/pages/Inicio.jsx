@@ -58,7 +58,7 @@ export function Inicio() {
                     <div className="row">
                         <div className="col-md-4 mb-4">
                             <article className="servicio-card">
-                                <img src="/img/perdidaPeso.jfif" alt="Servicio de pérdida de peso" className="img-fluid mb-2"/>
+                                <img src="/img/perdidaPeso.jfif" alt="Servicio de pérdida de peso" className="img-fluid mb-2" loading="lazy" />
                                 <h3>Plan de pérdida de peso</h3>
                                 <p>Plan de control de peso $25.000</p>
                                 <Link to="/servicios" className="btn btn-nutrivida">Agendar hora</Link>
@@ -70,6 +70,7 @@ export function Inicio() {
                                     src="/img/EnfermedadesMetabolicas.jfif"
                                     alt="Servicio de control de enfermedades metabólicas" 
                                     className="img-fluid mb-2"
+                                    loading="lazy"
                                 />
                                 <h3>Control metabólico</h3>
                                 <p>Seguimiento de diabetes, hipertensión y otras enfermedades metabólicas $30.000</p>
@@ -81,7 +82,8 @@ export function Inicio() {
                                 <img 
                                     src="/img/nutricionDeportiva.jfif"
                                     alt="Servicio de nutrición deportiva"
-                                    className="img-fluid mb-2" 
+                                    className="img-fluid mb-2"
+                                    loading="lazy"
                                 />
                                 <h3>Nutrición deportiva</h3>
                                 <p>Plan para rendimiento físico $37.000</p>
@@ -93,7 +95,8 @@ export function Inicio() {
                                 <img 
                                     src="/img/vegan.jpg"
                                     alt="Servicio de alimentación vegetariana y vegana"
-                                    className="img-fluid mb-2" 
+                                    className="img-fluid mb-2"
+                                    loading="lazy"
                                 />
                                 <h3>Vegetariana / vegana</h3>
                                 <p>Plan alimenticio sin productos animales $25.000</p>
@@ -105,7 +108,8 @@ export function Inicio() {
                                 <img 
                                     src="/img/nutricionInfantil.jpg"
                                     alt="Servicio de nutrición infantil"
-                                    className="img-fluid mb-2" 
+                                    className="img-fluid mb-2"
+                                    loading="lazy"
                                 />
                                 <h3>Nutrición infantil</h3>
                                 <p>Plan alimenticio para niños $25.000</p>
@@ -117,7 +121,8 @@ export function Inicio() {
                                 <img 
                                     src="/img/embarazo.jfif"
                                     alt="Servicio de nutrición en embarazo y lactancia"
-                                    className="img-fluid mb-2" 
+                                    className="img-fluid mb-2"
+                                    loading="lazy"
                                 />
                                 <h3>Embarazo y lactancia</h3>
                                 <p>Seguimiento nutricional para el embarazo $28.000</p>

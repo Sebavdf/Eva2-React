@@ -260,6 +260,31 @@ main {
   margin-top: 1.75rem;
 }
 
+.loading-state {
+  display: flex;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  color: var(--color-primario-oscuro);
+  font-weight: 700;
+}
+
+.loading-spinner {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid var(--color-borde);
+  border-top-color: var(--color-primario);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .btn {
   display: inline-block;
   padding: 0.65rem 1rem;

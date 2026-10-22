@@ -44,7 +44,7 @@ export function Servicios() {
                 <div id="lista-servicios" className="row">
                     <div className="col-md-4 mb-4">
                         <article className="servicio-card">
-                            <img src="/img/perdidaPeso.jfif" alt="Atención nutricional para el control de peso" />
+                            <img src="/img/perdidaPeso.jfif" alt="Atención nutricional para el control de peso" loading="lazy" />
                             <h2>Plan de pérdida de peso</h2>
                             <p>Plan de control de peso $25.000</p>
                             <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
@@ -52,7 +52,7 @@ export function Servicios() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <article className="servicio-card">
-                            <img src="/img/EnfermedadesMetabolicas.jfif" alt="Alimentos saludables para el control metabólico" />
+                            <img src="/img/EnfermedadesMetabolicas.jfif" alt="Alimentos saludables para el control metabólico" loading="lazy" />
                             <h2>Control metabólico</h2>
                             <p>Seguimiento de diabetes, hipertensión y otras enfermedades metabólicas $30.000</p>
                             <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
@@ -60,7 +60,7 @@ export function Servicios() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <article className="servicio-card">
-                            <img src="/img/nutricionDeportiva.jfif" alt="Nutrición para mejorar el rendimiento deportivo" />
+                            <img src="/img/nutricionDeportiva.jfif" alt="Nutrición para mejorar el rendimiento deportivo" loading="lazy" />
                             <h2>Nutrición deportiva</h2>
                             <p>Plan para rendimiento físico $37.000</p>
                             <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
@@ -68,7 +68,7 @@ export function Servicios() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <article className="servicio-card">
-                            <img src="/img/vegan.jpg" alt="Alimentación vegetariana basada en vegetales" />
+                            <img src="/img/vegan.jpg" alt="Alimentación vegetariana basada en vegetales" loading="lazy" />
                             <h2>Vegetariana / vegana</h2>
                             <p>Plan alimenticio sin productos animales $25.000</p>
                             <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
@@ -76,7 +76,7 @@ export function Servicios() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <article className="servicio-card">
-                            <img src="/img/nutricionInfantil.jpg" alt="Alimentación saludable para niños" />
+                            <img src="/img/nutricionInfantil.jpg" alt="Alimentación saludable para niños" loading="lazy" />
                             <h2>Nutrición infantil</h2>
                             <p>Plan alimenticio para niños $25.000</p>
                             <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
@@ -84,7 +84,7 @@ export function Servicios() {
                     </div>
                     <div className="col-md-4 mb-4">
                         <article className="servicio-card">
-                            <img src="/img/embarazo.jfif" alt="Nutrición durante el embarazo y la lactancia" />
+                            <img src="/img/embarazo.jfif" alt="Nutrición durante el embarazo y la lactancia" loading="lazy" />
                             <h2>Embarazo y lactancia</h2>
                             <p>Seguimiento nutricional para el embarazo $28.000</p>
                             <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
@@ -109,3 +109,5 @@ export function Servicios() {
         </>
     );
 }
+
+export default Servicios
