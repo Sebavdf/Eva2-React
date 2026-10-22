@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom/vitest'
-import { cleanup, render, screen } from '@testing-library/react'
+import { cleanup, render, screen, within } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
 import { afterEach, describe, expect, it } from 'vitest'
 import { Inicio } from '../pages/Inicio.jsx'
@@ -27,21 +27,25 @@ describe('Portada NutriVida', () => {
   })
 
   it('incluye la navegacion principal del sitio', () => {
-    render(
+    const { container } = render(
       <MemoryRouter>
         <Inicio />
       </MemoryRouter>,
     )
 
-    expect(screen.getByRole('link', { name: 'Servicios', exact: true })).toHaveAttribute(
+    // Acota la búsqueda únicamente dentro del navbar principal
+    const navbar = container.querySelector('nav.navbar')
+    const navScope = within(navbar)
+
+    expect(navScope.getByRole('link', { name: 'Servicios', exact: true })).toHaveAttribute(
       'href',
       '/servicios',
     )
-    expect(screen.getByRole('link', { name: 'Nosotros', exact: true })).toHaveAttribute(
+    expect(navScope.getByRole('link', { name: 'Nosotros', exact: true })).toHaveAttribute(
       'href',
       '/nosotros',
     )
-    expect(screen.getByRole('link', { name: 'Blogs', exact: true })).toHaveAttribute(
+    expect(navScope.getByRole('link', { name: 'Blogs', exact: true })).toHaveAttribute(
       'href',
       '/blogs',
     )
