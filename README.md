@@ -28,3 +28,27 @@ Eva2-React/
  ┣ eslint.config.js     # Configuración de reglas de linting
  ┣ vite.config.js       # Configuración del empaquetador Vite
  ┗ vitest.config.js     # Configuración del entorno de pruebas
+```
+
+## 🚀 Instalación y Ejecución
+Para ejecutar este proyecto en tu entorno local, asegúrate de tener Node.js instalado.
+
+**1. Clonar el repositorio:**
+
+git clone [https://github.com/tu-usuario/Eva2-React.git](https://github.com/tu-usuario/Eva2-React.git)
+cd Eva2-React
+
+**2. Instalar las dependencias:**
+
+npm install
+
+**3. Iniciar el servidor de desarrollo:**
+
+npm run dev
+
+## 🧪 Pruebas
+Este proyecto utiliza Vitest para la ejecución de pruebas.
+
+**Para correr la suite de tests, utiliza el siguiente comando:**
+
+npm run test
