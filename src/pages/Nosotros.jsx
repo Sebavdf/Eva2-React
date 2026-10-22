@@ -7,7 +7,7 @@ export function Nosotros() {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
-                        <img src="assets/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40" />
+                        <img src="/img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40" />
                         NutriVida
                     </Link>
                     <button 
@@ -60,7 +60,7 @@ export function Nosotros() {
                         <div className="col-md-4 mb-4">
                             <article className="miembro-card text-center">
                                 <img 
-                                    src="assets/Nutricionista1.jfif" 
+                                    src="/img/Nutricionista1.jfif"
                                     alt="Foto de Elena Martínez" 
                                     className="img-fluid rounded mb-3" 
                                 />
@@ -77,7 +77,7 @@ export function Nosotros() {
                         <div className="col-md-4 mb-4">
                             <article className="miembro-card text-center">
                                 <img 
-                                    src="assets/Nutricionista2.jfif" 
+                                    src="/img/Nutricionista2.jfif"
                                     alt="Foto de Alejandro Martínez" 
                                     className="img-fluid rounded mb-3" 
                                 />
@@ -94,7 +94,7 @@ export function Nosotros() {
                         <div className="col-md-4 mb-4">
                             <article className="miembro-card text-center">
                                 <img 
-                                    src="assets/Nutricionista3.jfif" 
+                                    src="/img/Nutricionista3.jfif"
                                     alt="Foto de Luciana Gómez" 
                                     className="img-fluid rounded mb-3" 
                                 />

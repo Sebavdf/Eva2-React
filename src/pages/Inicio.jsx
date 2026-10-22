@@ -7,7 +7,7 @@ export function Inicio() {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
-                        <img src="img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40"/>
+                        <img src="/img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40"/>
                         NutriVida
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -46,7 +46,7 @@ export function Inicio() {
                     </div>
                     <div className="col-md-6">
                         <img 
-                            src="img/Nutricionista-atendiendo-consulta.jfif"
+                            src="/img/Nutricionista-atendiendo-consulta.jfif"
                             alt="Nutricionista atendiendo a un paciente en consulta" 
                             className="img-fluid rounded"
                         />
@@ -58,7 +58,7 @@ export function Inicio() {
                     <div className="row">
                         <div className="col-md-4 mb-4">
                             <article className="servicio-card">
-                                <img src="img/perdidaPeso.jfif" alt="Servicio de pérdida de peso" className="img-fluid mb-2"/>
+                                <img src="/img/perdidaPeso.jfif" alt="Servicio de pérdida de peso" className="img-fluid mb-2"/>
                                 <h3>Plan de pérdida de peso</h3>
                                 <p>Plan de control de peso $25.000</p>
                                 <Link to="/servicios" className="btn btn-nutrivida">Agendar hora</Link>
@@ -67,7 +67,7 @@ export function Inicio() {
                         <div className="col-md-4 mb-4">
                             <article className="servicio-card">
                                 <img 
-                                    src="img/EnfermedadesMetabolicas.jfif"
+                                    src="/img/EnfermedadesMetabolicas.jfif"
                                     alt="Servicio de control de enfermedades metabólicas" 
                                     className="img-fluid mb-2"
                                 />
@@ -79,7 +79,7 @@ export function Inicio() {
                         <div className="col-md-4 mb-4">
                             <article className="servicio-card">
                                 <img 
-                                    src="img/nutricionDeportiva.jfif" 
+                                    src="/img/nutricionDeportiva.jfif"
                                     alt="Servicio de nutrición deportiva"
                                     className="img-fluid mb-2" 
                                 />
@@ -91,7 +91,7 @@ export function Inicio() {
                         <div className="col-md-4 mb-4">
                             <article className="servicio-card">
                                 <img 
-                                    src="img/vegan.jpg" 
+                                    src="/img/vegan.jpg"
                                     alt="Servicio de alimentación vegetariana y vegana"
                                     className="img-fluid mb-2" 
                                 />
@@ -103,7 +103,7 @@ export function Inicio() {
                         <div className="col-md-4 mb-4">
                             <article className="servicio-card">
                                 <img 
-                                    src="img/nutricionInfantil.jpg" 
+                                    src="/img/nutricionInfantil.jpg"
                                     alt="Servicio de nutrición infantil"
                                     className="img-fluid mb-2" 
                                 />
@@ -115,7 +115,7 @@ export function Inicio() {
                         <div className="col-md-4 mb-4">
                             <article className="servicio-card">
                                 <img 
-                                    src="img/embarazo.jfif" 
+                                    src="/img/embarazo.jfif"
                                     alt="Servicio de nutrición en embarazo y lactancia"
                                     className="img-fluid mb-2" 
                                 />

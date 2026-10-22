@@ -7,7 +7,7 @@ export function Blog2() {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
-                        <img src="assets/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40" />
+                        <img src="/img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40" />
                         NutriVida
                     </Link>
                     <button 
@@ -42,8 +42,8 @@ export function Blog2() {
             <main className="container my-4" style={{ maxWidth: '800px' }}>
                 <article className="blog-detalle">
                     <img 
-                        src="assets/blog-caso-juan.jpg" 
-                        alt="Paciente sonriendo tras lograr su objetivo nutricional"
+                        src="/img/Nutricionista-atendiendo-consulta.jfif"
+                        alt="Paciente en consulta nutricional"
                         className="img-fluid rounded mb-3" 
                     />
                     <h1>Cómo Juan bajó 12 kilos con un plan personalizado</h1>

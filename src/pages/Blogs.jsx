@@ -5,7 +5,7 @@ export function Blogs() {
         <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
             <a className="navbar-brand" href="index">
-                <img src="assets/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40"/>
+                <img src="/img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40"/>
                 NutriVida
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -41,7 +41,7 @@ export function Blogs() {
                     <a href="blog1" className="btn btn-nutrivida">Ver caso</a>
                 </div>
                 <div className="col-md-6">
-                    <img src="assets/blog-mitos-dietas.jpg" alt="Ilustración sobre mitos de dietas y alimentación"
+                    <img src="/img/vegan.jpg" alt="Alimentos para una dieta equilibrada"
                         className="img-fluid rounded"/>
                 </div>
             </article>
@@ -54,7 +54,7 @@ export function Blogs() {
                     <a href="blog2" className="btn btn-nutrivida">Ver caso</a>
                 </div>
                 <div className="col-md-6">
-                    <img src="assets/blog-caso-juan.jpg" alt="Paciente sonriendo tras lograr su objetivo nutricional"
+                    <img src="/img/Nutricionista-atendiendo-consulta.jfif" alt="Paciente en consulta nutricional"
                         className="img-fluid rounded"/>
                 </div>
             </article>

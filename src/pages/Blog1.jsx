@@ -6,7 +6,7 @@ export function Blog1() {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
-                        <img src="assets/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40" />
+                        <img src="/img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40" />
                         NutriVida
                     </Link>
                     <button 
@@ -41,8 +41,8 @@ export function Blog1() {
             <main className="container my-4" style={{ maxWidth: '800px' }}>
                 <article className="blog-detalle">
                     <img 
-                        src="assets/blog-mitos-dietas.jpg" 
-                        alt="Ilustración sobre mitos de dietas y alimentación"
+                        src="/img/vegan.jpg"
+                        alt="Alimentos para una dieta equilibrada"
                         className="img-fluid rounded mb-3" 
                     />
                     <h1>5 mitos sobre las dietas que debes dejar de creer</h1>

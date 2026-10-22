@@ -5,7 +5,7 @@ export function Contacto() {
                 <div className="container-fluid">
                     <a className="navbar-brand" href="index">
                         <img 
-                            src="assets/logoNutriVida.jfif" 
+                            src="/img/logoNutriVida.jfif"
                             alt="Logo NutriVida" 
                             style={{ width: '40px', height: '40px' }} 
                         />
@@ -44,7 +44,7 @@ export function Contacto() {
                 <section className="formulario-contacto d-flex justify-content-center">
                     <div className="login-box text-center" style={{ maxWidth: '500px', width: '100%' }}>
                         <img 
-                            src="assets/logoNutriVida.jfif" 
+                            src="/img/logoNutriVida.jfif"
                             alt="logo NutriVida" 
                             style={{ width: '100px', height: '100px' }} 
                         />

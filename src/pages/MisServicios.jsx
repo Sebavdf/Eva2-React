@@ -15,7 +15,7 @@ export function MisServicios() {
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
                         <img
-                            src="assets/logoNutriVida.jfif"
+                            src="/img/logoNutriVida.jfif"
                             alt="Logo NutriVida"
                             width={40}
                             height={40}

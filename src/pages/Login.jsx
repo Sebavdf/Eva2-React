@@ -8,7 +8,7 @@ export function Login() {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
-                        <img src="img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40"/>
+                        <img src="/img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40"/>
                         NutriVida
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -34,7 +34,7 @@ export function Login() {
             <main className="container my-4">
                 <section className="formulario-login d-flex justify-content-center">
                     <div className="login-box text-center" style={{ maxWidth: '400px', width: '100%' }}>
-                        <img src="img/logoNutriVida.jfif" alt="logo NutriVida" width="100" height="100"/>
+                        <img src="/img/logoNutriVida.jfif" alt="logo NutriVida" width="100" height="100"/>
                         <h1>NutriVida</h1>
 
                         <form className="text-start">

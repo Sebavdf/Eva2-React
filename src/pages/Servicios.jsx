@@ -7,7 +7,7 @@ export function Servicios() {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
-                        <img src="assets/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40" />
+                        <img src="/img/logoNutriVida.jfif" alt="Logo NutriVida" width="40" height="40" />
                         NutriVida
                     </Link>
                     <button 
@@ -42,7 +42,54 @@ export function Servicios() {
             <main className="container my-4">
                 <h1>Servicios</h1>
                 <div id="lista-servicios" className="row">
-                    {/* Las tarjetas se generarán aquí con JavaScript */}
+                    <div className="col-md-4 mb-4">
+                        <article className="servicio-card">
+                            <img src="/img/perdidaPeso.jfif" alt="Atención nutricional para el control de peso" />
+                            <h2>Plan de pérdida de peso</h2>
+                            <p>Plan de control de peso $25.000</p>
+                            <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
+                        </article>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <article className="servicio-card">
+                            <img src="/img/EnfermedadesMetabolicas.jfif" alt="Alimentos saludables para el control metabólico" />
+                            <h2>Control metabólico</h2>
+                            <p>Seguimiento de diabetes, hipertensión y otras enfermedades metabólicas $30.000</p>
+                            <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
+                        </article>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <article className="servicio-card">
+                            <img src="/img/nutricionDeportiva.jfif" alt="Nutrición para mejorar el rendimiento deportivo" />
+                            <h2>Nutrición deportiva</h2>
+                            <p>Plan para rendimiento físico $37.000</p>
+                            <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
+                        </article>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <article className="servicio-card">
+                            <img src="/img/vegan.jpg" alt="Alimentación vegetariana basada en vegetales" />
+                            <h2>Vegetariana / vegana</h2>
+                            <p>Plan alimenticio sin productos animales $25.000</p>
+                            <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
+                        </article>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <article className="servicio-card">
+                            <img src="/img/nutricionInfantil.jpg" alt="Alimentación saludable para niños" />
+                            <h2>Nutrición infantil</h2>
+                            <p>Plan alimenticio para niños $25.000</p>
+                            <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
+                        </article>
+                    </div>
+                    <div className="col-md-4 mb-4">
+                        <article className="servicio-card">
+                            <img src="/img/embarazo.jfif" alt="Nutrición durante el embarazo y la lactancia" />
+                            <h2>Embarazo y lactancia</h2>
+                            <p>Seguimiento nutricional para el embarazo $28.000</p>
+                            <Link to="/contacto" className="btn btn-nutrivida">Agendar hora</Link>
+                        </article>
+                    </div>
                 </div>
             </main>
 
