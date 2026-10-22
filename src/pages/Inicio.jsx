@@ -24,11 +24,7 @@ export function Inicio() {
                         <ul className="navbar-nav">
                             <li className="nav-item"><Link className="nav-link" to="/login">Iniciar sesión</Link></li>
                             <li className="nav-item"><Link className="nav-link" to="/registro">Registrar usuario</Link></li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/misServicios">
-                                    Mis productos (<span id="contador-carrito">0</span>)
-                                </Link>
-                            </li>
+                            <li className="nav-item"><Link className="nav-link" to="/misServicios">Mis productos (<span id="contador-carrito">0</span>)</Link></li>                              
                         </ul>
                     </div>
                 </div>
