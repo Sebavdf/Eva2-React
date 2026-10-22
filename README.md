@@ -1,16 +1,30 @@
-# React + Vite
+# Clínica Nutricional NutriVida - Frontend React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene la migración completa de las vistas estáticas (HTML/CSS) de la Clínica Nutricional NutriVida hacia una Single Page Application (SPA) moderna desarrollada con React.
 
-Currently, two official plugins are available:
+## 📋 Sobre el Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+En esta instancia se traspasó toda las páginas HTML y CSS a React. El proyecto adopta un enfoque basado en componentes para mejorar la escalabilidad, la mantenibilidad del código y la experiencia de usuario mediante una navegación fluida sin recargas de página.
 
-## React Compiler
+## 🛠️ Tecnologías y Herramientas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Framework:** React
+*   **Build Tool:** Vite (garantiza un entorno de desarrollo rápido y optimizado)
+*   **Testing:** Vitest (framework de pruebas unitarias rápido y nativo de Vite)
+*   **Linter:** ESLint (para mantener la calidad y el estándar del código)
+*   **Gestor de Paquetes:** npm
 
-## Expanding the ESLint configuration
+## 📁 Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+Eva2-React/
+ ┣ public/              # Recursos estáticos (favicon, imágenes públicas)
+ ┣ src/                 # Código fuente de la aplicación
+ ┃ ┣ assets/            # Imágenes, íconos y otros recursos multimedia
+ ┃ ┣ components/        # Componentes reutilizables (Navbar, Footer, etc.)
+ ┃ ┣ pages/             # Componentes de vista (Home, Servicios, Contacto, etc.)
+ ┃ ┣ App.jsx            # Configuración de rutas y layout principal
+ ┃ ┗ main.jsx           # Punto de entrada de la aplicación
+ ┣ eslint.config.js     # Configuración de reglas de linting
+ ┣ vite.config.js       # Configuración del empaquetador Vite
+ ┗ vitest.config.js     # Configuración del entorno de pruebas
